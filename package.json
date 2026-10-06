@@ -1,0 +1,16 @@
+{
+  "name": "judes-studio-order-panel",
+  "version": "1.0.0",
+  "description": "Discord Components V2 order panel",
+  "license": "ISC",
+  "keywords": ["discord.js", "order-panel"],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.2"
+  }
+}
