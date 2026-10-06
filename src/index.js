@@ -5,8 +5,8 @@ const { buildOrderPanel, buildTicketMessage } = require('./orderPanel');
 if (!process.env.TOKEN) throw new Error('Set TOKEN in .env before starting the bot.');
 
 const allowedUsers = new Set(['830030944416432159', '737181735846019112']);
-const ORDER_CATEGORY_ID = '1215044053809242213';
-const ADMIN_ROLE_ID = '1215420218705453096';
+const ORDER_CATEGORY_ID = '1556970533789245510';
+const ADMIN_ROLE_ID = '1556967527093899264';
 const orderTypes = { logo: 'Logo', banners: 'Banners', bundle: 'Bundle (Both)' };
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
