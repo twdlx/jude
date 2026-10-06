@@ -22,7 +22,7 @@ function buildOrderPanel() {
         .addTextDisplayComponents(new TextDisplayBuilder().setContent('## Services\nBring your ideas to life with us. Our talented designers deliver fast, affordable, and high-quality solutions to turn your vision into reality. From liveries and uniforms to logos, we handle it all. When ordering you agree to our Terms of Services.'))
         .addActionRowComponents(new ActionRowBuilder().addComponents(menu))
         .addSeparatorComponents(divider())
-        .addMediaGalleryComponents(gallery('attachment://order-panel-lower.png', 'Pulse banner'));
+        .addMediaGalleryComponents(gallery('attachment://order-panel-lower.png', "Jude's Studio banner"));
     return {
         flags: MessageFlags.IsComponentsV2,
         components: [container],
@@ -43,7 +43,7 @@ function buildTicketMessage({ type, quantity, budget, userId }) {
         .addMediaGalleryComponents(gallery('attachment://order-panel-top.png', 'Orders banner'))
         .addSeparatorComponents(divider())
         .addTextDisplayComponents(new TextDisplayBuilder().setContent(
-            `Thank you for ordering with us! We are glad that you decided to order with **Pulse Management**. Please send your **reference image(s)** in the thread below to unlock this order channel.\nAnd please keep in mind that we **do not issue refunds**.`
+            `Thank you for ordering with us! We are glad that you decided to order with **Jude's Studio**. Please send your **reference image(s)** in the thread below to unlock this order channel.\nAnd please keep in mind that we **do not issue refunds**.`
         ))
         .addSeparatorComponents(divider())
         .addTextDisplayComponents(new TextDisplayBuilder().setContent(
